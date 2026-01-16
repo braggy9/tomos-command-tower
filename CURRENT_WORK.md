@@ -8,23 +8,30 @@ A living document tracking active development across the TomOS ecosystem.
 
 ## 🔴 Active Now
 
-### MatterOS
-**Status:** Specification complete, ready for development
-**Next action:** Set up Xcode project, implement data models
+### TomOS Backend Migration (Notion → PostgreSQL) 🎯
+**Status:** **READY TO EXECUTE** - All planning and documentation complete
+**Priority:** HIGH - Must complete before starting MatterOS or other modules
+**Next action:** Phase 0 (Pre-Flight Setup) then Session 1 (Database Setup)
+**Estimated time:** 6-10 hours over 4-5 days
 **Blockers:** None
+**Docs:**
+- Execution Plan: `/EXECUTION-PLAN.md`
+- Claude Code Prompts: `/CLAUDE-CODE-PROMPTS.md`
+- Migration Guides: `/Users/tombragg/Desktop/Projects/TomOS/docs/postgres-migration/`
+**Expected completion:** End of Week 3, 2026
+
+### MatterOS
+**Status:** Specification complete, waiting for PostgreSQL migration
+**Next action:** Begin development after TomOS migration stable (1 week post-migration)
+**Blockers:** Depends on PostgreSQL migration completion
 **Spec:** `/projects/matteros/SPEC.md`
+**Implementation Guide:** `/projects/matteros/CLAUDE.md` (803 lines)
 
 ### TomOS Launcher
-**Status:** Specification complete, ready for development
+**Status:** Specification complete, can start anytime
 **Next action:** Set up Xcode project, implement basic grid view
 **Blockers:** None
 **Spec:** `/projects/tomos-launcher/SPEC.md`
-
-### TomOS Backend Migration (Notion → PostgreSQL)
-**Status:** Planned, documentation complete
-**Next action:** Execute Session 1 (Database Setup)
-**Blockers:** None
-**Docs:** `/Users/tombragg/Desktop/Projects/TomOS/docs/postgres-migration/`
 
 ---
 
